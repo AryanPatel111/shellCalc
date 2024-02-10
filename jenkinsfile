@@ -4,6 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE_NAME = 'aryanpatel111/calculator'
         GITHUB_REPO_URL = 'https://github.com/AryanPatel111/shellCalc.git'
+        LANG = 'en_US.UTF-8'
     }
 
     stages {
